@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CSS for container */
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+/* CSS for top-wrapper */
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+/* Adding a breakpoint at max-width: 1000px */
+@@media (max-width: 1000px) {
+
+  /* Changing <h1>'s color property to blue */
+  h1 {
+    color: #0000ff;
+  }
+}
+
+/* Adding a breakpoint at max-width: 670px */
+@media (max-width: 670px) {
+
+  /* Changing <h1>'s color property to green */
+  h1 {
+    color: #008000;
+  }
+}
+
+h2 {
+  color: black;
+}
+
+/* Adding a breakpoint at max-width: 1000px */
+@@media (max-width: 1000px) {
+
+  /* Changing <h2>'s color property to blue */
+  h2 {
+    color: #0000ff;
+  }
+}
+
+/* Adding a breakpoint at max-width: 670px */
+@media (max-width: 670px) {
+
+  /* Changing <h2>'s color property to green */
+  h2 {
+    color: #008000;
+  }
+}
+
+/* CSS for <h1> tags within top-wrapper */
+.top-wrapper h1 {
+  font-size: 55px;
+  opacity: 0.8;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+/* CSS for <h2> tags within top-wrapper */
+.top-wrapper h2 {
+  font-size: 55px;
+  opacity: 0.8;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+/* CSS for <p> tags within top-wrapper */
+.top-wrapper p {
+  margin-bottom: 3px;
+  opacity: 0.8
+}
+
+/* CSS for btn */
+.btn {
+  opacity: 0.8;
+  display: inline-block;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-radius: 4px;
+}
+
+/* CSS for btn on hover */
+.btn:hover {
+  opacity: 1.0;
+}
+
+/* CSS for signup */
+.signup {
+  background-color: #239b76;
+}
+
+/* CSS for facebook */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 2.5px;
+}
+
+/* CSS for twitter */
+.twitter {
+  background-color: #55acee;
+  margin-left: 2.5px;
+}
+
+/* CSS for btn-wrapper */
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CSS for <p> tags inside btn-wrapper */
+.btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Changing fa's margin-right to 5px */
+.fa {
+  margin-right: 5px;
+}
+
+/* CSS for <header> tags */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Changing the position property to fixed, and top property to 0 */
+  position: fixed;
+  top: 0;
+  /* Changing the z-index property to 10 */
+  z-index: 10;
+}
+
+/* CSS for logo */
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+/* CSS for header-left */
+.header-left {
+  float: left;
+}
+
+/* CSS for header-right */
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Changing the transition property */
+  transition: all 0.5s;
+}
+
+/* CSS for header-right on hover */
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* CSS for <a> tags inside header-right */
+header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+/* CSS for lesson-wrapper */
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+/* CSS for heading */
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+/* CSS for <h3> tags inside heading */
+.heading h3 {
+  font-weight: normal;
+}
+
+/* CSS for lesson */
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* CSS for lesson-icon */
+.lesson-icon {
+  position: relative;
+}
+
+/* CSS for <p> tags inside lesson-icon */
+.lesson-icon p {
+  position: absolute;
+  top: 90px color: white;
+  width: 100%;
+}
+
+/* CSS for txt-contents */
+.txt-contents {
+  width: 80px;
+  display: inline-block;
+  margin-top: 20px;
+  color: #b3aeb5;
+  font-size: 15px;
+}
+
+/* CSS for message-wrapper */
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+/* CSS for message */
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  /* putting the cursor property to pointer */
+  cursor: pointer;
+  /* putting the box-shadow property */
+  box-shadow: 0 7px #1a7940;
+}
+
+/* CSS for message when it's clicked */
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+/* CSS for <h3> tags inside heading */
+.heading h3 {
+  font-weight: normal;
+}
+
+/* CSS for <img> tags inside the <footer> */
+footer img {
+  width: 125px;
+}
+
+/* CSS for <p> tags inside the <footer> */
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
+/* CSS for <footer> tags */
+footer {
+  padding-top: 30px;
+}
