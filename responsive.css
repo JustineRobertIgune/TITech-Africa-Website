@@ -1,0 +1,61 @@
+/* For Tablets */
+/* Adding a breakpoint at max-width: 1000px */
+@media (max-width: 1000px) {
+
+  /* Adding CSS for lesson */
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* For Smartphones*/
+/*Adding a breakpoint at max-width: 670px */
+@@media (max-width:670px) {
+  /*Changing lesson's width to 100% */
+  width: 100%;
+}
+
+/*Change <footer>'s text-align: center */
+footer {
+  text-align: center;
+}
+
+/* Changing btn's width to 100% */
+.btn {
+  width: 100%;
+}
+
+/* Changing facebook's margin-bottom to 10px */
+.facebook {
+  margin-bottom: 10px;
+}
+
+/* Adding CSS for top-wrapper */
+.top-wrapper {
+  text-align: left;
+  padding-top: 130px;
+}
+
+/* Adding CSS for <h1> tags inside top-wrapper */
+.top-wrapper h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* Adding CSS for <p> tags inside top-wrapper */
+.top-wrapper {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Adding CSS for header-right */
+.header-right {
+  display: none;
+}
+
+/* Adding CSS for menu-icon */
+.menu-icon {
+  display: block;
+}
+}
